@@ -5,18 +5,18 @@ require 'pry'
 
 def pretty_print_nds(nds)
   # binding.pry
-  pp nds[0]
+  pp nds
 end
 
 def print_first_directors_movie_titles 
   
   all_movies = directors_database[0][:movies]
   
-  index = 0
+  row_index = 0
 
-  while index < all_movies.length do
+  while row_index < all_movies.length do
     puts all_movies[index][:title]
 
-    index +=1
+    row_index +=1
   end 
 end
