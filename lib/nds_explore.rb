@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   row_index = 0
 
   while row_index < all_movies.length do
-    puts all_movies[index][:title]
+    puts all_movies[row_index][:title]
 
     row_index +=1
   end 
