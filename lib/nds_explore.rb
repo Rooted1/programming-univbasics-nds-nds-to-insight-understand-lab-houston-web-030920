@@ -5,7 +5,7 @@ require 'pry'
 
 def pretty_print_nds(nds)
   # binding.pry
-  pp nds
+  pp nds[0]
 end
 
 def print_first_directors_movie_titles 
