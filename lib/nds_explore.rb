@@ -4,12 +4,13 @@ require 'pry'
 # require 'pp'
 
 def pretty_print_nds(nds)
+  binding.pry
   pp nds
 end
 
 def print_first_directors_movie_titles
   
-  binding.pry 
+  # binding.pry 
   
   all_movies = directors_database[0][:movies]
   
